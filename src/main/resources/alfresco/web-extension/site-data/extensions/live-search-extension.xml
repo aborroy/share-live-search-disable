@@ -1,0 +1,18 @@
+<extension>
+    <modules>
+        <module>
+            <id>Menu customisation</id>
+            <auto-deploy>true</auto-deploy>
+            <evaluator type="default.extensibility.evaluator"/>
+            <customizations>
+                <customization>
+                    <targetPackageRoot>org.alfresco</targetPackageRoot>
+                    <sourcePackageRoot>org.alfresco.live.search</sourcePackageRoot>
+                    <alwaysApply>
+                        <webscript>share-header</webscript>
+                    </alwaysApply>
+                </customization>
+            </customizations>
+        </module>
+    </modules>
+</extension>
