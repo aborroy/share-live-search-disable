@@ -18,5 +18,4 @@ You'll find `share-live-search-disable-1.0.0.jar` Share addon in `target` folder
 
 [live-search-extension.xml](src/main/resources/alfresco/web-extension/site-data/extensions/live-search-extension.xml) declares a simple extension for [org.alfresco.share-header](https://github.com/Alfresco/alfresco-community-share/tree/release/7.3.1/share/src/main/resources/alfresco/site-webscripts/org/alfresco/share/header) package. This package contains the `share-header.get.js` file that is being extended.
 
-[share-header.get.js](src/main/resources/alfresco/web-extension/site-webscripts/org/alfresco/live/search
-/share-header.get.js) contains the configuration to remove people, sites and documents results from *live search* feature.
+[share-header.get.js](src/main/resources/alfresco/web-extension/site-webscripts/org/alfresco/live/search/share-header.get.js) contains the configuration to remove people, sites and documents results from *live search* feature.
